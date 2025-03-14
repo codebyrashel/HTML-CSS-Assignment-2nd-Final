@@ -142,7 +142,10 @@ header {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url("./../img/hero.png") center / cover no-repeat;
+    background-image: url("./../img/hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Gradient Overlay */
