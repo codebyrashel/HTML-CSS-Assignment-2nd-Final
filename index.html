@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Booking Hotel</title>
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links left-nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Newsletter</a></li>
+            </ul>
+            <div class="logo">
+                <img src="img/Hotel Logo.png" alt="Logo" />
+            </div>
+            <ul class="nav-links right-nav">
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="mobile-nav">
+            <div class="mobile-nav-content">
+                <div class="mobile-header">
+                    <div class="mobile-logo">
+                        <img src="img/Hotel Logo.png" alt="Logo" />
+                    </div>
+                    <div class="close-icon">&times;</div>
+                </div>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>
+                    Discover Extraordinary<br />
+                    Comfort in Hotels
+                </h1>
+            </div>
+
+            <!-- Pagination Dots -->
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </section>
+        <section class="booking-wrapper">
+            <div class="booking-section">
+                <h2>Book a Room</h2>
+                <p>Discover the perfect space for you!</p>
+
+                <div class="form-container">
+                    <!-- Date Picker -->
+                    <div class="form-group">
+                        <label>Date</label>
+                        <button class="input-box">
+                            <i class="fa-regular fa-calendar"></i> Check Available
+                        </button>
+                    </div>
+
+                    <!-- Person Selector -->
+                    <div class="form-group">
+                        <label>Person</label>
+                        <div class="input-box select-group">
+                            <i class="fa-solid fa-user"></i> Adults
+                            <select>
+                                <option>1</option>
+                                <option selected>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                            <i class="fa-regular fa-face-smile"></i> Children
+                            <select>
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Book Now Button -->
+                    <button class="book-btn">BOOK NOW</button>
+                </div>
+            </div>
+        </section>
+        <!--Facilities Section-->
+        <section class="facilities">
+            <div class="facility-wrapper">
+                <div class="facility">
+                    <img src="img/Facility-1.png" alt="Rooms" />
+                    <span>Rooms</span>
+                </div>
+                <div class="facility">
+                    <img src="img/Facility-2.png" alt="Dining" />
+                    <span>Dining</span>
+                </div>
+                <div class="facility">
+                    <img src="img/Facility-3.png" alt="Conferences & Meetings" />
+                    <span>Conferences & Meetings</span>
+                </div>
+                <div class="facility">
+                    <img src="img/Facility-4.png" alt="Service & Facilities" />
+                    <span>Service & Facilities</span>
+                </div>
+                <div class="facility">
+                    <img src="img/Facility-5.png" alt="Wedding Package" />
+                    <span>Wedding Package</span>
+                </div>
+            </div>
+        </section>
+        <!--Facilities Section-->
+        <!--Special Offer Section-->
+        <section class="special">
+            <div class="special-wrapper">
+                <div class="offers-section">
+                    <div>
+                        <h4>Special Offers</h4>
+                        <h2>Best offer of the month</h2>
+                        <p>Experience Fantastic Benefits and Obtain Better Rates When You Make a Direct Booking on Our
+                            Official Website</p>
+                    </div>
+                    <button>View All</button>
+                </div>
+                <div class="offers-container">
+                    <div class="offer-card">
+                        <img src="img/Honeymoon.png" alt="Room">
+                        <span>Room</span>
+                        <h5>
+                            Honeymoon
+                            <span class="guest-info">
+                                <img src="img/human.svg" alt="Icon"> 2
+                            </span>
+                        </h5>
+                        <p>Indulge in a Memorable One-Time Romantic Dinner for Two</p>
+                        <strong class="offer-price">$699 <span>/night</span></strong>
+                    </div>
+                    <div class="offer-card">
+                        <img src="img/Meetings.png" alt="Room">
+                        <span>Room</span>
+                        <h5>
+                            Meetings
+                            <span class="guest-info">
+                                <img src="img/human.svg" alt="Icon"> 2
+                            </span>
+                        </h5>
+                        <p>Experience an Exclusively Private Environment to Boost Your Productivity</p>
+                        <strong class="offer-price">$999 <span>/night</span></strong>
+                    </div>
+                    <div class="offer-card">
+                        <img src="img/Romantic Dining.png" alt="Room">
+                        <span>Room</span>
+                        <h5>
+                            Romantic Dining
+                            <span class="guest-info">
+                                <img src="img/human.svg" alt="Icon"> 2
+                            </span>
+                        </h5>
+                        <p>Indulge in a Memorable One-Time Romantic Dinner for Two</p>
+                        <strong class="offer-price">$499 <span>/night</span></strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Special Offer Section-->
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="newsletter">
+                <p>Newsletter & Special Promo</p>
+                <div class="newsletter-form">
+                    <input type="text" placeholder="Enter your email here">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+                <div class="footer_menu">
+                    <div class="footer_logo">
+                        <a href="./index.html"><img src="img/Logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="footer_menu_content">
+                        <div class="widget_1">
+                            <ul class="footer_menu_list">
+                                <li class="list_item"><a href="">About us</a></li>
+                                <li class="list_item"><a href="">Contact</a></li>
+                                <li class="list_item"><a href="">Location</a></li>
+                            </ul>
+                        </div>
+                        <div class="widget_2">
+                            <ul class="footer_menu_list">
+                                <li class="list_item"><a href="">Faq</a></li>
+                                <li class="list_item"><a href="">Term of use</a></li>
+                                <li class="list_item"><a href="">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="widget_3">
+                            <ul class="footer_menu_list">
+                                <li class="list_item"><a href="">Service</a></li>
+                                <li class="list_item"><a href="">Career</a></li>
+                                <li class="list_item"><a href="">How to book</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copywright">
+            © Copyright Booking Hotels. All right reserved.
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/e36c47ecc8.js" crossorigin="anonymous"></script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const mobileNav = document.querySelector(".mobile-nav");
+    const closeIcon = document.querySelector(".close-icon");
+    
+    toggleNav = () => {
+        mobileNav.classList.toggle("active");
+    };
+    
+    hamburger.addEventListener("click", toggleNav);
+    closeIcon.addEventListener("click", toggleNav);
+    </script>
+    
+
+</html>
